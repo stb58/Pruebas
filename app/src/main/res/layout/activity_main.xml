@@ -9,23 +9,23 @@
     <Button
         android:id="@+id/CALCULAR"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="151dp"
-        android:layout_height="89dp"
+        android:layout_width="185dp"
+        android:layout_height="104dp"
         android:background="#0A24CC"
         android:text="CALCULAR"
         android:textColor="#F6EDED"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.468"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916"
+        app:layout_constraintVertical_bias="0.92"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/gasolina"
-        android:layout_width="221dp"
-        android:layout_height="79dp"
+        android:layout_width="279dp"
+        android:layout_height="63dp"
         android:ems="10"
         android:hint="Gasto Coche (L)"
         android:inputType="number|textPersonName"
@@ -42,8 +42,8 @@
 
     <EditText
         android:id="@+id/km"
-        android:layout_width="215dp"
-        android:layout_height="75dp"
+        android:layout_width="217dp"
+        android:layout_height="67dp"
         android:layout_marginBottom="34dp"
         android:ems="10"
         android:hint="Nº KM"
@@ -59,8 +59,8 @@
 
     <EditText
         android:id="@+id/personas"
-        android:layout_width="214dp"
-        android:layout_height="84dp"
+        android:layout_width="220dp"
+        android:layout_height="71dp"
         android:ems="10"
         android:hint="Personas"
         android:inputType="number|textPersonName"
@@ -75,8 +75,8 @@
 
     <EditText
         android:id="@+id/precio"
-        android:layout_width="222dp"
-        android:layout_height="84dp"
+        android:layout_width="241dp"
+        android:layout_height="66dp"
         android:ems="10"
         android:hint="Precio/L"
         android:inputType="number|textPersonName"

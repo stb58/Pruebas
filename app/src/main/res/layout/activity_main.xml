@@ -6,52 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="67dp"
-        android:layout_height="39dp"
-        android:ems="10"
-        android:hint="Nº KM"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="185dp" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="88dp"
-        android:layout_height="40dp"
-        android:ems="10"
-        android:hint="Personas"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="258dp" />
+    <Button
+        android:id="@+id/CALCULAR"
+        android:layout_width="151dp"
+        android:layout_height="89dp"
+        android:text="CALCULAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.232"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
-        android:layout_width="139dp"
-        android:layout_height="41dp"
+        android:layout_width="233dp"
+        android:layout_height="124dp"
         android:ems="10"
         android:hint="Gasto Coche (L)"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:inputType="number|textPersonName"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277"
+        tools:ignore="MissingConstraints"
+        tools:visibility="visible" />
 
-    <Button
-        android:id="@+id/CALCULAR"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CALCULAR"
-        tools:layout_editor_absoluteX="175dp"
-        tools:layout_editor_absoluteY="329dp" />
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="234dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="34dp"
+        android:ems="10"
+        android:hint="Nº KM"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="231dp"
+        android:layout_height="132dp"
+        android:ems="10"
+        android:hint="Personas"
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732"
+        tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="91dp"
-        android:layout_height="44dp"
+        android:layout_width="237dp"
+        android:layout_height="125dp"
         android:ems="10"
         android:hint="Precio/L"
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="39dp" />
+        android:inputType="number|textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.060000002"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

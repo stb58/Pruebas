@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     public double calculo (double precio, double gasolina, double km, double personas){
         double litrosTotal = (gasolina * km)/100;
-        double precioTotal = (litrosTotal * precio)/personas;
+        double precioTotal = Math.round(((litrosTotal * precio)/personas)*100.0)/100.0;
         return precioTotal;
     }
 }

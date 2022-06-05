@@ -8,7 +8,7 @@
 
     <Button
         android:id="@+id/CALCULAR"
-        style="@style/Widget.Material3.MaterialTimePicker.Button"
+        style="@style/Widget.AppCompat.Button"
         android:layout_width="151dp"
         android:layout_height="89dp"
         android:background="#0A24CC"
